@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Open+Sans|Oleo+Script');
+
+body {
+    margin-top: 56px;
+}
+
+.hidden {
+    display: none
+}
+
+.navbar-brand {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 2em;
+    height: 1em;
+    line-height: 0.8em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white !important;
+    text-decoration: none;
+}
+a:visited {
+    color: white !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bdbdbd !important;
+    text-decoration: none;
+}
+a:active {
+    color: #bdbdbd !important;
+    text-decoration: none;
+}
+
+#bestani:active {
+    color: white !important;
+    text-decoration: none;
+}
+
+.jumbotron-fluid {
+    background: url('picture.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.jumbotron {
+    background-color: white;
+    width: 100%;
+    color: black;
+}
+
+h2, a {
+    font-family: 'Oleo Script', cursive;
+}
+
+h2 {
+    text-align: center;
+    color: #9e0000;
+}
+
+.menu {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-item {
+    -webkit-column-break-inside: avoid; /* Chrome, Safari */
+    break-inside: avoid-column;         /* IE 11 */
+}
+
+.menu-item-name {
+    color: #9e0000;
+    float: left;
+    font-weight: bold;
+}
+
+.menu-item-cost {
+    color: #9e0000;
+    float: right;
+    font-weight: bold;
+}
+
+.menu-item-description {
+    font-family: 'Roboto', sans-serif;
+    clear: left;
+    max-width: 80%;
+}
+
+.menu-description {
+    font-family: 'Roboto', sans-serif;
+    clear: left;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    left: 0;
+    margin-bottom: 0;
+}
+
+.text-muted {
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
